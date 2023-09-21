@@ -1,4 +1,4 @@
-package com.saehyun.compose_barcode_generator
+package com.saehyun.compose.barcode
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.saehyun.compose_barcode_generator", appContext.packageName)
+        assertEquals("com.saehyun.compose.barcode.test", appContext.packageName)
     }
 }

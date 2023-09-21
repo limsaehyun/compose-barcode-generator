@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "compose-barcode-generator"
 include(":app")
- 
+include(":compose-barcode")
